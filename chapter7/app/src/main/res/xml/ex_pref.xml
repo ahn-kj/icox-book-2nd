@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="isSync"
+        android:summary="클라우드 저장소와 데이터를 동기화 합니다."
+        android:title="데이터 동기화 사용" />
+    <EditTextPreference
+        android:defaultValue="홍길동"
+        android:key="name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="사용자 이름을 설정하세요"
+        android:title="이름" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="isPush"
+        android:summary="여러가지 유용한 알림을 받아보세요"
+        android:title="푸시알림" />
+</PreferenceScreen>

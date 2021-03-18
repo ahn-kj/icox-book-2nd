@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.akj.seoultoilet">
+    <!-- 현재 위치를 위한 권한 요청 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <!-- 인터넷 사용 권한 요청. 최신 버전에서도 런타임에 체크할 필요 없음 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 안드로이드 9.0(파이) 버전부터는 usesCleartextTraffic 속성 기본 값이 변해 true 로 설정해야함 -->
+    <application
+            android:usesCleartextTraffic="true"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <!-- 구글 클라우드 플랫폼에서 발급받은 API 키를 여기에 -->
+        <meta-data android:name="com.google.android.geo.API_KEY"
+                   android:value="발급받은 API 키"/>
+        <!-- 구글 플레이 서비스 버전을 적는 곳으로 그대로 타이핑 -->
+        <meta-data android:name="com.google.android.gms.version"
+                   android:value="@integer/google_play_services_version"/>
+        <!-- 안드로이드 파이 버전부터 필요 -->
+        <uses-library
+                android:name="org.apache.http.legacy"
+                android:required="false"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

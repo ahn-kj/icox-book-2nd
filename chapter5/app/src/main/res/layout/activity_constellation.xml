@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akj.lotto.ConstellationActivity">
+
+    <Button
+        android:id="@+id/goResultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:text="로또번호확인" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/goResultButton"
+        android:layout_below="@+id/datePicker"
+        android:layout_margin="16dp"
+        android:src="@drawable/constellation" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="32dp"
+        android:layout_toRightOf="@+id/imageView"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="쌍둥이자리"
+        android:textColor="@android:color/black"
+        app:autoSizeMaxTextSize="48sp"
+        app:autoSizeMinTextSize="24sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 구글 게임 서비스 앱 아이디 -->
+    <string name="app_id" translatable="false">구글 게임 서비스 앱 아이디</string>
+    <!-- leaderboard 아이디 -->
+    <string name="leaderboard_id" translatable="false">리더보드 아이디</string>
+</resources>

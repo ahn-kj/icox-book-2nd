@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 결과화면에서 사용할 컬러 -->
+    <color name="colorPrimaryResult">#2196F3</color>
+    <color name="colorPrimaryDarkResult">#1976D2</color>
+    <color name="colorAccentResult">#FF4081</color>
+
+    <!-- 별자리 입력화면에서 사용할 컬러 -->
+    <color name="colorPrimaryConstellation">#673AB7</color>
+    <color name="colorPrimaryDarkConstellation">#512DA8</color>
+    <color name="colorAccentConstellation">#7E57C2</color>
+    <color name="colorContentConstellation">#556080</color>
+    <color name="colorButtonConstellation">#673AB7</color>
+
+    <!-- 이름 입력화면에서 사용할 컬러 -->
+    <color name="colorPrimaryName">#F9A11F</color>
+    <color name="colorPrimaryDarkName">#EF6C00</color>
+    <color name="colorAccentName">#FFC107</color>
+    <color name="colorContentName">#fcd837</color>
+    <color name="colorButtonName">#F9A11F</color>
+</resources>

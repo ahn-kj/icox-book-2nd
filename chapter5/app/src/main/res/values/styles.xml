@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 결과화면 테마 -->
+    <style name="AppTheme.Result" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryResult</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkResult</item>
+        <item name="colorAccent">@color/colorAccentResult</item>
+    </style>
+
+    <!-- 별자리 입력화면 테마 -->
+    <style name="AppTheme.Constellation" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryConstellation</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkConstellation</item>
+        <item name="colorAccent">@color/colorAccentConstellation</item>
+        <!-- 버튼의 컬러 -->
+        <item name="colorButtonNormal">@color/colorButtonConstellation</item>
+        <!-- 버튼등 텍스트 컬러 -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- 이름 입력화면 테마 -->
+    <style name="AppTheme.Name" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryName</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkName</item>
+        <item name="colorAccent">@color/colorAccentName</item>
+        <!-- 버튼의 컬러 -->
+        <item name="colorButtonNormal">@color/colorButtonName</item>
+        <!-- 버튼등 텍스트 컬러 -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

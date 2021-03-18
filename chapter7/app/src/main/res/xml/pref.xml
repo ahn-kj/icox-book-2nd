@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="useLockScreen"
+        android:title="퀴즈 잠금화면 사용" />
+    <MultiSelectListPreference
+        android:defaultValue="@array/category"
+        android:entries="@array/category"
+        android:entryValues="@array/category"
+        android:key="category"
+        android:summary="일반상식, 역사, 수도"
+        android:title="퀴즈 종류" />
+</PreferenceScreen>
